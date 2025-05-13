@@ -49,3 +49,43 @@ Se instalan las librerias que se van a ocupar en el proyecto
 ````shell
 pip install web.py
 ````
+
+## 7. Crear el archivo **requirements.txt**
+
+Se crea el archivo **requirements.txt** con las librerias y el numero de version utilizadas
+
+````shell
+pip freeze > requirements.txt
+````
+
+## 8. Crear el archivo **runtime.txt**
+
+Se crea el archivo **runtime.txt** con la version de Python3 que se esta utilizando en el proyecto
+
+````shell
+python3 -V >runtime.txt
+````
+
+## 9. Indexar los archivos creados con **git**
+
+Se
+
+````shell
+git add .
+````
+
+## 10. Generemos un **commit**
+
+Se realiza un **commint** con un texto que describa los cambios realizados en el proyecto
+
+````shell
+git commint -m "CREATED configuracion basica"
+````
+
+## 11. Realizar un **push**
+
+Se realiza un **push** para subir los cambios realizados al repositorio de **GitHub**
+
+````shell
+git push -u origin main
+````

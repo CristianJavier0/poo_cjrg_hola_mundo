@@ -1,2 +1,51 @@
-# poo_cjrg
-Ejercicios de programacion orientada a objetos con python de Cristian Javier Rubio Gayosso Ti31 :)
+# Ejemplos de programacion orientada a obejetos
+
+## 1. Crear el archivo **.gitignore**
+
+Se crea el achivo **.gitignore** para configurar los archivos que no se sincronizan con el repositorio
+
+````shell
+*.pyc
+__pycache__/
+.venv/
+````
+
+## 2. Crear el **virtual environment**
+
+se crea el ambiente virtual de trabajo de python
+
+````shell
+python3 -m venv .venv (en lo ultimo es el nombre de tu repositorio)
+````
+
+## 3. Iniciar el **virtual environment**
+
+Se inicia el **virtual environment** para instalar las librerias necesarias para el proyecto
+
+````shell
+source .venv/bin/activate
+````
+
+## 4. Actualizar **pip** dentro del **virtual environment**
+
+Se actualiza la version instalada de **pip** para poder descargar las ultimas versiones de las librerias
+
+````shell
+pip install --upgrade pip
+````
+
+## 5. Verificar las librerias instaladas
+
+Se verifica las librerias y versiones se tienen instaladas
+
+````shell
+pip freeze
+````
+
+## 6. Instalar librerias
+
+Se instalan las librerias que se van a ocupar en el proyecto
+
+````shell
+pip install web.py
+````

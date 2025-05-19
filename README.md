@@ -76,10 +76,10 @@ git add .
 
 ## 10. Generemos un **commit**
 
-Se realiza un **commint** con un texto que describa los cambios realizados en el proyecto
+Se realiza un **commit** con un texto que describa los cambios realizados en el proyecto
 
 ````shell
-git commint -m "CREATED configuracion basica"
+git commit -m "CREATED configuracion basica"
 ````
 
 ## 11. Realizar un **push**
